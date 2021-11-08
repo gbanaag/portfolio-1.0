@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+}
+
+@font-face {
+    font-family: 'fontersregular';
+    src: url('./fonters-webfont.woff2') format('woff2'),
+         url('./fonters-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  background-color: #151324;
+  color: white;
+}
+
+
+.logo {
+    width: 12vw;
+    position: fixed;
+    left: 3vw;
+    top: 3vw;
+    z-index: 900;
+}
+
+.menu {
+  display: flex;
+  /* flex-direction: column; */
+  margin: 2vw;
+  position: fixed;
+  font-family: 'Spartan', sans-serif;
+  right: 3vw;
+  top: 2vw;
+  z-index: 900;
+}
+
+.menu-links {
+  margin: 2vw;
+  font-size: 1.5vw;
+}
+
+.study-title {
+  /* color: #0FD2AB; */
+  font-size: 4vw;
+  position: relative;
+  margin-left: 20vw;
+  margin-top: 17vw;
+  line-height:5vw;
+  font-family: 'Spartan', sans-serif;
+  font-weight: 900;
+  /* font-size: 8vw; */
+  /* font-family: 'fontersregular'; */
+}
+
+.question {
+  font-family: 'Karla', sans-serif;
+  position: relative;
+  margin-left: 20vw;
+  /* margin-top: 10vw; */
+  font-size: 1.5vw;
+}
+
+.cover-img {
+  filter: drop-shadow(8px 4px 64px rgba(0, 0, 0, 0.1));
+  width: 60vw;
+  position: relative;
+  margin-left: 20vw;
+  /* margin-top: 15vw; */
+  border-radius: 2vw;
+  margin-bottom: 2vw;
+}
+
+.titles {
+  font-family: 'Spartan', sans-serif;
+  margin-left: 20vw;
+  margin-top: 3vw;
+  font-size: 2vw;
+  padding: 0;
+  padding-left: 0;
+}
+
+p {
+  font-family: 'Karla', sans-serif;
+  margin-left: 20vw;
+  margin-right: 5vw;
+  margin-bottom: 1vw;
+  font-size: 1.2vw;
+}
+
+.grayed {
+  font-size: 1.5vw;
+  color: gray;
+  font-family: 'Karla', sans-serif;
+}
+
+.supplement-imgs {
+  filter: drop-shadow(8px 4px 64px rgba(0, 0, 0, 0.1));
+  /* width: 35vw; */
+  padding: 1vw;
+  border-radius: 2vw;
+}
+
+.image-row {
+  margin-left: 19vw;
+  display:flex;
+  flex-direction: row
+}
+
+a {
+  color: black;
+  transition: 0.5s;
+  text-decoration: none;
+  font-size: 1vw;
+  /* font-family: 'Karla', sans-serif; */
+}
+
+a:hover {
+  color: #64C9E3;
+}
+
+.back {
+  margin-left: 20vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  font-size: 1.4vw;
+}
+
+.dark-mode {
+  background-color: #151324;
+  color: white;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+button {
+  background-color: transparent; /* Green */
+  border: none;
+  /* color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; */
+}

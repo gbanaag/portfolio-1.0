@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Waiting room</title>
+    <link rel="stylesheet" href="css/case-study.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+
+  </head>
+  <body>
+    <body>
+      <a href="index.html"><img class="logo" src="logos/gabby-logo.png"></a>
+      <div class="menu">
+        <a class="menu-links"><b class="links"> Work </b></a>
+        <a href="gallery.html" class="menu-links links"> Gallery </a>
+        <a href="about.html" class="menu-links links"> About </a>
+        <button style="font-size: 2.5vw;" id="toggleMode" onclick="switchMode()"> ☀️ </button>
+      </div>
+
+      <h1 style="color: #8AD7F9" class="study-title"> WAITING ROOM </h1>
+      <p class="question"> 🏥 “How can patients be prioritized for medical assistance in light of covid-19?”</p>
+      <img src="waiting-room/waiting-room.png" class="cover-img">
+
+      <h1 class="titles"> My role </h1>
+      <p class="grayed"> Front-end, Back-end, UX/UI Design </p>
+      <p> I created the front-end, design, and illustrations for this project. Additionally, I worked on
+        Firebase authentication to allow users to log in to the site, and provided a way for users to access
+        data that they have submitted to the database. I also created a map to search for hospitals nearby.
+
+      </p>
+
+      <h1 class="titles"> Timeframe </h1>
+      <p class="grayed"> 36 Hours </p>
+
+      <h1 class="titles"> The Problem </h1>
+      <p> The covid-19 pandemic has caused massive overcrowding in hospitals, with a lot of hospitals
+        reaching full capacity. There is also a high risk of coming into contact with the virus in physical
+        waiting rooms and medical spaces.
+      </p>
+
+      <h1 class="titles"> The Approach </h1>
+      <p> I had the idea of making a platform that provided a way for patients to safely avoid overcrowding
+        in hospitals and get access to resources based on need and severity (if they were at high risk of
+        having covid or severe illnesses).
+      </p>
+
+      <div class="image-row">
+        <img class="supplement-imgs" style="width: 20vw;" src="waiting-room/vis1.png">
+        <img class="supplement-imgs" style="width: 20vw;" src="waiting-room/vis2.png">
+        <img class="supplement-imgs" style="width: 20vw;" src="waiting-room/vis3.png">
+      </div>
+      <p class="grayed">  Graphics I made  </p>
+      <h1 class="titles"> The design process </h1>
+      <p> I designed a couple of mockups for the project prior to development. Since the project was sillier
+        than other projects I worked on, I wanted it to have a playful and youthful feel, hence the scribbles
+        as part of the design. Despite this, I wanted the project to still look polished to some extent, so I
+        worked a sans serif font into the design. We picked purple to use for the overall style of the project
+        because we associated the color with sleeping.
+      </p>
+
+      <h1 class="titles"> The building process </h1>
+      <p> We thought it would be easiest to collaborate on a Glitch project since we were working remotely.
+        We settled on using Firebase, because we didn’t have experience setting up a database or account
+        authentication and believed using an external service would be the best option for the project.
+        We also thought that using APIs would be useful to implement data external to the project into the
+        website.
+
+      </p>
+
+
+      <h1 class="titles"> How it works </h1>
+      <p> Users can submit a form on our website, answering what type of symptoms they have, which are
+        then triaged by the EndlessMedicalAPI. This information is then sent to a database that can easily
+        be accessed by hospitals.
+      </p>
+
+      <div style="margin-top:1vw;" class="image-row">
+        <img class="supplement-imgs" src="waiting-room/home.gif">
+      </div>
+      <p class="grayed"> The form </p>
+
+      <p>  To update and access any information they have submitted, users are able to log
+      in securely through Google Authentication. </p>
+
+      <div style="margin-top:1vw;" class="image-row">
+        <img class="supplement-imgs" src="waiting-room/auth.gif">
+      </div>
+      <p class="grayed"> Google authentication </p>
+
+      <p> Users can also look for hospitals near them through the Google Maps API. </p>
+      <div style="margin-top:1vw;" class="image-row">
+        <img class="supplement-imgs" src="waiting-room/map.gif">
+      </div>
+      <p class="grayed"> Finding hospitals nearby </p>
+
+      <h1 class="titles"> What I learned </h1>
+      <p> It was my first time working with both Firebase authentication and the Firebase Realtime Database,
+        so I learned about how to log in users into a website and how to send data to a database. It was also
+        my first time working with the Google Maps JavaScript API as well as the Places API, so I learned more
+        about how to use both.
+
+      </p>
+
+      <h1 class="titles"> Created for </h1>
+      <p> The seventh iteration of Swamphacks, University of Florida's annual collegiate hackathon. </p>
+
+      <h1 class="titles"> Tools used </h1>
+      <p> Endless Medical API, Firebase Realtime Database, Firebase Authentication, Google Maps JavaScript API, Google Places API, HTML, JavaScript, CSS </p>
+
+      <h1 class="titles"> Links</h1>
+      <p> You can <a style="color: #6169D7; font-size: 1.2vw;" href="https://github.com/gbanaag/waitingroom" target="_blank"> check out the code </a>
+      and <a style="color: #6169D7; font-size: 1.2vw;" href="https://waitingroom-6824b.web.app/" target="_blank"> demo it </a>. </p>
+
+      <br><br><br>
+      <a href="index.html" class="back grayed" style="  margin-top: 2vw;"> ← Back to portfolio </a>
+      <br><br><br>
+      <script src="script.js"></script>
+
+  </body>
+</html>

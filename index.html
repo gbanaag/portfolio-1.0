@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gabriela Banaag </title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  </head>
+  <body id="slideSource">
+    <a href="index.html"><img class="logo" src="logos/gabby-logo.png"></a>
+    <img id="blobs" src="images/blobs-dark.svg">
+    <div class="menu">
+      <a class="menu-links"><b class="links"> Work </b></a>
+      <a href="#gallery" class="menu-links links" onclick="showMore()"> Gallery </a>
+      <a href="resume.html" class="menu-links links"> Resume </a>
+      <a href="about.html" class="menu-links links"> About </a>
+      <button style="font-size: 2.5vw;" id="toggleMode" onclick="switchMode()"> ☀️ </button>
+    </div>
+    <!-- <img id="gabby1" class="drop" src="images/gabby1.jpg"> -->
+    <div id="text-stuff">
+      <p style="font-size: 2vw; line-height: 2.75vw;"> 👋 Hi, I’m Gabriela! I’m a purpose-driven </p>
+      <h1 style="line-height: 7.5vw;"class="emphasis" id="job-title"> DESIGNER </h1>
+      <p style="font-size: 1.75vw; line-height: 1.75vw;"> exploring the intersection between <br> multimedia <b> design </b> and <b> software </b> development. </p>
+    </div>
+
+    <div class="project" style="margin-top: 30vw;">
+      <img class="proj-img" style="width:20vw;" src="images/trill-groups.png">
+      <div class="proj-info">
+        <h1 class="proj-name"> Trill Group Chats </h1>
+        <p class="proj-type" style="color:#E17D7D"> UX/UI, UX Research </p>
+        <p class="question">  “How do you connect multiple app users together on a social network?” </p>
+        <a class="proj-button pink-button" href="wakeupbruh.html"> Case study </a>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="proj-info" style="left: 10vw;">
+        <h1 class="proj-name"> Helloo World Rebrand </h1>
+        <p class="proj-type" style="color:#FBE365"> Identity, UX/UI, Marketing </p>
+        <p class="question">  “How can we make our brand stand out?” </p>
+        <a class="proj-button yellow-button" href="waiting-room.html"> Case study </a>
+      </div>
+      <img class="proj-img" src="images/helloo-world.png">
+    </div>
+
+    <div class="project">
+      <img class="proj-img" style="width:20vw;" src="images/rise.png">
+      <div class="proj-info">
+        <h1 class="proj-name"> RISE x JUV </h1>
+        <p class="proj-type" style="color:#64C9E3"> Identity, Marketing </p>
+        <p class="question">  “How do you reach talented teenagers on social media?”  </p>
+        <a class="proj-button blue-button" href="wakeupbruh.html"> Case study </a>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="proj-info" style="left: 10vw;">
+        <h1 class="proj-name"> Waiting Room </h1>
+        <p class="proj-type" style="color:#64C9E3"> Web Development, UX/UI </p>
+        <p class="question">  “How can patients be prioritized for medical assistance in light of covid-19?” </p>
+        <a class="proj-button blue-button" href="waiting-room.html"> Case study </a>
+      </div>
+      <img class="proj-img" src="images/waitingroom.png">
+    </div>
+
+
+    <div class="project">
+      <img class="proj-img" src="images/wakeupbruh.png">
+      <div class="proj-info">
+        <h1 class="proj-name"> Wake Up Bruh </h1>
+        <p class="proj-type" style="color:#8787BE"> Web Development, UX/UI </p>
+        <p class="question">  "What if there was a program that could detect when we were falling asleep and keep us in check?" </p>
+        <a class="proj-button purple-button" href="wakeupbruh.html"> Case study </a>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="proj-info" style="left: 10vw;">
+        <h1 class="proj-name"> idk the next project </h1>
+        <p class="proj-type" style="color:#64C9E3"> Web Development, UX/UI </p>
+        <p class="question">  “How can patients be prioritized for medical assistance in light of covid-19?” </p>
+        <a class="proj-button blue-button" href="waiting-room.html"> Case study </a>
+      </div>
+      <img class="proj-img" src="images/waitingroom.png">
+    </div>
+
+
+
+    <a name="gallery"></a>
+    <div id="gallery" style="margin-top: 10vw;">
+      <img src="images/Banaag_Gabriela.jpg" style="width: 30vw; z-index: 900;">
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+      var count = 0;
+      var slideSource = document.getElementById('slideSource');
+
+      function switchMode() {
+        count++;
+        console.log(count);
+        if(count % 2 == 0) {
+          // darkMode = false;
+          // element.classList.toggle("light-mode");
+          // document.body.onclick = function () {
+          //   slideSource.classList.toggle('fade');
+          // }
+          // $("#slideSource").fadeOut(200);
+          setTimeout(function() {
+            document.body.style.backgroundColor = "#151324";
+            document.body.style.color = "white";
+            // document.getElementById("menu").style.color = "white";
+            document.getElementById("blobs").src = "images/blobs-dark.svg";
+            document.getElementById("toggleMode").innerHTML = "☀️";
+          }, 500);
+          // $("#slideSource").fadeIn(200);
+          console.log("dark mode");
+        } else {
+          // element.classList.toggle("dark-mode");
+          // document.body.onclick = function () {
+          //   slideSource.classList.toggle('fade');
+          // }
+          // $("#slideSource").fadeOut(1000);
+          setTimeout(function() {
+            document.body.style.backgroundColor = "white";
+            document.body.style.color = "black";
+            document.getElementById("blobs").src = "images/blobs-light.svg";
+            // document.getElementById("menu").style.color = "black";
+            // document.getElementsByClassName("links").style.color ="black";
+            document.getElementById("toggleMode").innerHTML = "🌙";
+          }, 500);
+          // $("#slideSource").fadeIn(1000);
+
+          console.log("light mode");
+          // darkMode = true;
+        }
+      }
+
+      function showMore() {
+        // document.getElementById("gallery").style.display = "block";
+        $("#gallery").fadeIn(2000);
+      }
+
+    </script>
+
+  </body>
+</html>

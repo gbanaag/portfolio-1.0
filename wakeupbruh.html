@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Wake up bruh</title>
+
+    <!-- <link rel="stylesheet" href="css/styles.css"/> -->
+    <link rel="stylesheet" href="css/case-study.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <a href="index.html"><img class="logo" src="logos/gabby-logo.png"></a>
+    <div class="menu">
+      <a class="menu-links"><b class="links"> Work </b></a>
+      <a href="gallery.html" class="menu-links links"> Gallery </a>
+      <a href="about.html" class="menu-links links"> About </a>
+      <button style="font-size: 2.5vw;" id="toggleMode" onclick="switchMode()"> ☀️ </button>
+    </div>
+
+    <h1 style="color: #6169D7" class="study-title"> WAKE UP BRUH </h1>
+    <p class="question"> 😴 "What if there was a program that could detect when we were falling asleep and keep us in check?"</p>
+    <img src="wakeupbruh/homepage.png" class="cover-img">
+
+    <h1 class="titles"> My role </h1>
+    <p class="grayed"> Front-end, Designer </p>
+    <p> I worked on the front-end through React (it was my first time working with it at a hackathon!),
+      and the some functions that triggered sounds and alerts that appeared on the screen.
+    </p>
+
+    <h1 class="titles"> Timeframe </h1>
+    <p class="grayed"> 36 hours </p>
+
+    <h1 class="titles"> The Problem </h1>
+    <p> <a style="color: #6169D7; font-size: 1.2vw;" href="https://www.linkedin.com/in/davidguo5499/" target="_blank"> My project partner </a> and I started falling asleep on our desks when listening to lectures remotely.
+      We realized a lot of our friends had this problem too, and wanted to build a solution as a project. </p>
+
+    <h1 class="titles"> The Approach </h1>
+    <p> We created a website that detects when you're feeling tired and notify you, telling you to "wake up,
+      bruh!" Whether you’re falling asleep at a really boring meeting, or you’re trying to drive late at night,
+      WakeUpBruh works to keep you awake when you need it most.  </p>
+
+    <div class="image-row">
+      <img class="supplement-imgs" style="width: 35vw;" src="wakeupbruh/homepage2.png">
+      <img class="supplement-imgs" style="width: 35vw;" src="wakeupbruh/wake-up.png">
+    </div>
+    <p class="grayed"> Mockups I designed for the project! </p>
+    <h1 class="titles"> Wireframes and mockups </h1>
+    <p> I designed a couple of mockups for the project prior to development. Since the project was sillier
+      than other projects I worked on, I wanted it to have a playful and youthful feel, hence the scribbles
+      as part of the design. Despite this, I wanted the project to still look polished to some extent, so I
+      worked a sans serif font into the design. We picked purple to use for the overall style of the project
+      because we associated the color with sleeping.
+    </p>
+
+    <h1 class="titles"> The building process </h1>
+    <p> We settled on using React as a front-end framework. We believed that building a project with react
+      would work best with the back-end of the project, and also wanted to try using a framework that we
+      weren’t too familiar with. We picked up Tensorflow.js because of its face recognition library, and
+      because we believed it would be easier to use than an API.
+    </p>
+
+    <div style="margin-top:1vw;" class="image-row">
+      <img class="supplement-imgs" style="width: 35vw;" src="wakeupbruh/demo.png">
+    </div>
+    <p class="grayed"> Detecting how open eyes were </p>
+
+    <h1 class="titles"> How it works </h1>
+    <p> In order to create a sleepiness detecting web app, we implemented facemesh.js in order to retrieve
+      face landmarks, or key points that each map onto your facial features. Using these landmarks, we
+      calculated the Euclidean distance between multiple coordinates in the upper and lower eyelids and
+      averaged the results between two eyes. This gave us a number that would indicate how open someone’s
+      eyes are. <br> <br> From this, we set a threshold on how open one’s eyes would need to be in order to be
+      determined as sleepy, and made a set amount of time before the program would tell them to wake up.
+      This set amount of time was used in order to account for blinking. Meeting the time condition would
+      indicate that the user is tired, and the user would be warned to wake up through alerts.
+    </p>
+
+    <h1 class="titles"> What I learned </h1>
+    <p> I became comfortable with using React and deploying projects through working on WakeUpBruh.
+      I also learned more about the functions of Git by working on this project.
+    </p>
+
+    <h1 class="titles"> Created for </h1>
+    <p> The seventh iteration of SB Hacks, UC Santa Barbara’s collegiate hackathon. </p>
+
+    <h1 class="titles"> Tools used </h1>
+    <p> CSS, Figma, Git, Github, HTML, JavaScript, node.js, React, Tensorflow.js </p>
+
+    <h1 class="titles"> Links</h1>
+    <p> You can <a style="color: #6169D7; font-size: 1.2vw;" href="https://github.com/stop176/wakeupbruh" target="_blank"> check out the code </a>
+    of the project, check out our <a style="color: #6169D7; font-size: 1.2vw;" href="https://www.youtube.com/watch?v=CWbEFsvYLtQ" target="_blank"> pitch </a>,
+    and <a style="color: #6169D7; font-size: 1.2vw;" href="https://wakeupbruh.vercel.app/" target="_blank"> demo it </a>. </p>
+
+    <br><br><br>
+    <a href="index.html" class="back grayed" style="  margin-top: 2vw;"> ← Back to portfolio </a>
+    <br><br><br>
+    
+    <script src="script.js"></script>
+
+  </body>
+</html>
