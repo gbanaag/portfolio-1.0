@@ -65,10 +65,13 @@ img {
   margin-top: 7%;
 }
 
-p, ul, li {
+p, ul, li, h3, h4 {
   font-family: 'Karla', sans-serif;
   color: white;
+}
 
+ul, li {
+  font-size: 1.2vw;
 }
 
 .outline {
@@ -458,4 +461,13 @@ h2 {
   width: 15vw;
   border-radius: 1vw;
   margin-right: 1vw;
+}
+
+.annotation {
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  padding-left: 1.5vw;
 }
