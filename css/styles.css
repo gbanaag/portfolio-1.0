@@ -73,6 +73,11 @@ p, ul, li, h3, h4 {
 ul, li {
   font-size: 1.2vw;
 }
+/* 
+.annotated-text {
+  font-size: 0.9vw;
+  font-family: 'Spartan', sans-serif;
+} */
 
 .outline {
   /* border: 4px solid #FBE62A; */
@@ -150,10 +155,6 @@ a {
 
 a:hover {
     color: #65B5FF;
-}
-
-p {
-  font-size: 1vw;
 }
 
 .highlight {
@@ -412,7 +413,7 @@ button {
 }
 
 .case-description {
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 
 .tldr {
