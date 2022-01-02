@@ -2,121 +2,236 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title> Waiting room</title>
-    <link rel="stylesheet" href="css/case-study.css"/>
+    <link rel="icon" href="logos/favicon.png">
+    <title>Gabriela Banaag </title>
+    <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   </head>
+
   <body>
-    <body>
-      <a href="index.html"><img class="logo" src="logos/gabby-logo.png"></a>
-      <div class="menu">
-        <a class="menu-links"><b class="links"> Work </b></a>
-        <a href="gallery.html" class="menu-links links"> Gallery </a>
-        <a href="about.html" class="menu-links links"> About </a>
-        <button style="font-size: 2.5vw;" id="toggleMode" onclick="switchMode()"> ☀️ </button>
+    <a href="index.html"><img class="logo" src="logos/skrib-logo.svg"></a>
+    <div class="menu">
+      <a href="index.html" class="menu-links"> Design </a>
+      <!-- <a href="code.html" class="menu-links links"> Code </a>
+      <a href="resume.html" class="menu-links links"> Resume </a> -->
+      <a href="about.html" class="menu-links links"> About </a>
+    </div>
+
+    <center>
+      <img class="header-image" src="css/headers/waiting-header.png">
+      <h1 class="outline case-title" style="-webkit-text-stroke: .2vw #2A96FB"> Waiting Room </h1>
+      <p class="case-description"> 
+        🏥 “How can patients be prioritized for medical assistance in light of covid-19?”
+      </p>
+    </center>
+
+      <div class="tldr" style="margin-bottom: 5vw;">
+        <div class="summary-block">
+          <h1 style="font-size: 2.2vw; font-weight: 700; margin: 1vw"> Timeframe </h1>
+          <p style="font-size: 1.4vw;"><i> 36 hours <br> January 2021 </i></p>
+        </div>
+        <div class="summary-block">
+          <h1 style="font-size: 2.2vw; font-weight: 700; margin: 1vw"> My Role </h1>
+          <p style="font-size: 1.4vw;"><i> Front-end <br> Back-end <br> UX/UI Design </i></p>
+        </div>
+        <div class="summary-block">
+          <h1 style="font-size: 2.2vw; font-weight: 700; margin: 1vw"> Team </h1>
+          <p style="font-size: 1.4vw;">
+            David Guo
+          </p>
+        </div>
       </div>
 
-      <h1 style="color: #8AD7F9" class="study-title"> WAITING ROOM </h1>
-      <p class="question"> 🏥 “How can patients be prioritized for medical assistance in light of covid-19?”</p>
-      <img src="waiting-room/waiting-room.png" class="cover-img">
-
-      <h1 class="titles"> My role </h1>
-      <p class="grayed"> Front-end, Back-end, UX/UI Design </p>
-      <p> I created the front-end, design, and illustrations for this project. Additionally, I worked on
-        Firebase authentication to allow users to log in to the site, and provided a way for users to access
-        data that they have submitted to the database. I also created a map to search for hospitals nearby.
-
-      </p>
-
-      <h1 class="titles"> Timeframe </h1>
-      <p class="grayed"> 36 Hours </p>
-
-      <h1 class="titles"> The Problem </h1>
-      <p> The covid-19 pandemic has caused massive overcrowding in hospitals, with a lot of hospitals
-        reaching full capacity. There is also a high risk of coming into contact with the virus in physical
-        waiting rooms and medical spaces.
-      </p>
-
-      <h1 class="titles"> The Approach </h1>
-      <p> I had the idea of making a platform that provided a way for patients to safely avoid overcrowding
-        in hospitals and get access to resources based on need and severity (if they were at high risk of
-        having covid or severe illnesses).
-      </p>
-
-      <div class="image-row">
-        <img class="supplement-imgs" style="width: 20vw;" src="waiting-room/vis1.png">
-        <img class="supplement-imgs" style="width: 20vw;" src="waiting-room/vis2.png">
-        <img class="supplement-imgs" style="width: 20vw;" src="waiting-room/vis3.png">
+      <div class="box-outline" style="border-style: none;">
+        <div style="margin: 5vw;">
+          <h3 class="box-header" style="color: #2A96FB"> BRIEF </h3>
+          <h2 class="emphasis"> Waiting Room is my favorite hackathon project! </h2>
+          <p style="font-size: 1.4vw;">
+            My friend David and I made this for the seventh iteration of Swamphacks, University of Florida's annual 
+            collegiate hackathon. 
+          </p>
+        </div>
       </div>
-      <p class="grayed">  Graphics I made  </p>
-      <h1 class="titles"> The design process </h1>
-      <p> I designed a couple of mockups for the project prior to development. Since the project was sillier
-        than other projects I worked on, I wanted it to have a playful and youthful feel, hence the scribbles
-        as part of the design. Despite this, I wanted the project to still look polished to some extent, so I
-        worked a sans serif font into the design. We picked purple to use for the overall style of the project
-        because we associated the color with sleeping.
-      </p>
 
-      <h1 class="titles"> The building process </h1>
-      <p> We thought it would be easiest to collaborate on a Glitch project since we were working remotely.
-        We settled on using Firebase, because we didn’t have experience setting up a database or account
-        authentication and believed using an external service would be the best option for the project.
-        We also thought that using APIs would be useful to implement data external to the project into the
-        website.
+      <center>
+        <hr style="height:2px;border-width:0;color:rgb(51, 51, 51);background-color:rgb(51, 51, 51); width: 60vw;">
+      </center>
 
-      </p>
-
-
-      <h1 class="titles"> How it works </h1>
-      <p> Users can submit a form on our website, answering what type of symptoms they have, which are
-        then triaged by the EndlessMedicalAPI. This information is then sent to a database that can easily
-        be accessed by hospitals.
-      </p>
-
-      <div style="margin-top:1vw;" class="image-row">
-        <img class="supplement-imgs" src="waiting-room/home.gif">
+      <div class="box-outline" style="border-style: none;">
+        <div style="margin: 5vw;">
+          <h3 class="box-header" style="color: #2A96FB"> THE PROBLEM </h3>
+          <h2 class="emphasis"> Close contact during the pandemic </h2>
+          <p style="font-size: 1.4vw;">
+            The covid-19 pandemic has caused massive overcrowding in hospitals, with a lot of hospitals reaching full capacity. 
+            There is also a high risk of coming into contact with the virus in physical waiting rooms and medical spaces.
+          </p>
+        </div>
       </div>
-      <p class="grayed"> The form </p>
 
-      <p>  To update and access any information they have submitted, users are able to log
-      in securely through Google Authentication. </p>
+      <center>
+        <hr style="height:2px;border-width:0;color:rgb(51, 51, 51);background-color:rgb(51, 51, 51); width: 60vw;">
+      </center>
 
-      <div style="margin-top:1vw;" class="image-row">
-        <img class="supplement-imgs" src="waiting-room/auth.gif">
+      <div class="box-outline" style="border-style: none;">
+        <div style="margin: 5vw;">
+          <h3 class="box-header" style="color: #2A96FB"> PROPOSED SOLUTION </h3>
+          <h2 class="emphasis"> Contact-free waiting rooms. </h2>
+          <p style="font-size: 1.4vw;">
+            I had the idea of making a platform that provided a way for patients to safely avoid overcrowding in hospitals and 
+            get access to resources based on need and severity (if they were at high risk of having covid or severe illnesses).
+            <br><br>
+            Me and David wanted to create a platform where patients could easily send diagnostic data to hospitals. 
+            The website intends to take away the risk of contact in physical waiting rooms during the pandemic to avoid
+            the spread of COVID-19 symptoms. 
+          </p>
+        </div>
       </div>
-      <p class="grayed"> Google authentication </p>
 
-      <p> Users can also look for hospitals near them through the Google Maps API. </p>
-      <div style="margin-top:1vw;" class="image-row">
-        <img class="supplement-imgs" src="waiting-room/map.gif">
+      <center>
+        <hr style="height:2px;border-width:0;color:rgb(51, 51, 51);background-color:rgb(51, 51, 51); width: 60vw;">
+      </center>
+
+      <div class="box-outline" style="border-style: none;">
+        <div style="margin: 5vw;">
+          <h3 class="box-header" style="color: #2A96FB"> VISUAL DESIGN </h3>
+          <div style="margin-bottom: 1vw;">
+            <img style="border-radius: 1vw; margin-right: 1vw; width: 18vw;" src="waiting-room/vis1.png">
+            <img style="border-radius: 1vw; margin-right: 1vw; width: 18vw;" src="waiting-room/vis2.png">
+            <img style="border-radius: 1vw; margin-right: 1vw; width: 18vw;" src="waiting-room/vis3.png">
+          </div>
+          <p style="font-size: 1.4vw;">
+            Hospitalization isn't a very light topic to discuss, so I wanted to design an experience and create a design 
+            meant to ease users through the process of reserving a spot in the “waiting room”. <br><br>
+            The illustrations of the project are vector based and intended to be friendly to the user, while also not being 
+            too distracting from the process of using the site. The overall <b style="color: #61B2FD"> style is meant to be 
+            light and soft </b>, hence the undertones and pastels used in the design.
+          </p>
+        </div>
       </div>
-      <p class="grayed"> Finding hospitals nearby </p>
 
-      <h1 class="titles"> What I learned </h1>
-      <p> It was my first time working with both Firebase authentication and the Firebase Realtime Database,
-        so I learned about how to log in users into a website and how to send data to a database. It was also
-        my first time working with the Google Maps JavaScript API as well as the Places API, so I learned more
-        about how to use both.
+      <center>
+        <hr style="height:2px;border-width:0;color:rgb(51, 51, 51);background-color:rgb(51, 51, 51); width: 60vw;">
+      </center>
 
-      </p>
+      <div class="box-outline" style="border-style: none;">
+        <div style="margin: 5vw;">
+          <h3 class="box-header" style="color: #2A96FB"> BUILDING </h3>
+          <p style="font-size: 1.4vw;">
+            We thought it would be easiest to collaborate on a Glitch project since we were working remotely. 
+            <br><br>
+            We settled on using Firebase, because we didn't have experience setting up a database or account 
+            authentication and believed using an external service would be the best option for the project. 
+            <br><br>
+            We also thought that using APIs would be useful to implement data external to the project into the website without
+            manually compiling it.
+          </p>
+        </div>
+      </div>
 
-      <h1 class="titles"> Created for </h1>
-      <p> The seventh iteration of Swamphacks, University of Florida's annual collegiate hackathon. </p>
+      
+      <center>
+        <hr style="height:2px;border-width:0;color:rgb(51, 51, 51);background-color:rgb(51, 51, 51); width: 60vw;">
+      </center>
 
-      <h1 class="titles"> Tools used </h1>
-      <p> Endless Medical API, Firebase Realtime Database, Firebase Authentication, Google Maps JavaScript API, Google Places API, HTML, JavaScript, CSS </p>
+      <div class="box-outline" style="border-style: none">
+        <div style="margin: 5vw;">
+          <h3 class="box-header" style="color: #2A96FB"> RESULTS </h3>
+          <!-- <img class="case-img" src="css/rise-pics/rise 1.png"> -->
+          <h2 class="emphasis"> The final product! </h2>
 
-      <h1 class="titles"> Links</h1>
-      <p> You can <a style="color: #6169D7; font-size: 1.2vw;" href="https://github.com/gbanaag/waitingroom" target="_blank"> check out the code </a>
-      and <a style="color: #6169D7; font-size: 1.2vw;" href="https://waitingroom-6824b.web.app/" target="_blank"> demo it </a>. </p>
+          <p style="font-size: 1.4vw;"> Users can submit a form on our website, answering what type of symptoms they have, which are
+            then triaged by the EndlessMedicalAPI. This information is then sent to a database that can easily
+            be accessed by hospitals.
+          </p>
+    
+          <div style="margin-top:3vw;" class="image-row">
+            <img src="waiting-room/home.gif" style="border-radius: 1vw; width: 58vw;">
+          </div>
+          <h3 style="margin-top: 1vw; margin-bottom: 2vw; Color: rgb(165, 165, 165);"> <i> The form. </i></h3>
+    
+          <p style="font-size: 1.4vw;">  To update and access any information they have submitted, users are able to log
+          in securely through Google Authentication. </p>
+    
+          <div style="margin-top:3vw;" class="image-row">
+            <img src="waiting-room/auth.gif" style="border-radius: 1vw; width: 58vw;">
+          </div>
+          <h3 style="margin-top: 1vw; margin-bottom: 2vw; Color: rgb(165, 165, 165);"> <i> Google authentication - working with this tool for the first time was super fun! </i></h3>
+    
+          <p style="font-size: 1.4vw;"> Users can also look for hospitals near them through the Google Maps API. </p>
+          <div style="margin-top:1vw;" class="image-row">
+            <img src="waiting-room/map.gif" style="border-radius: 1vw; width: 58vw;">
+          </div>
+          <h3 style="margin-top: 1vw; Color: rgb(165, 165, 165);"> 
+            <i> Working with Google Maps was more of a challenge. I couldn't get the API to connect with
+              user-inputted location information before the end of the hackathon, unfortunately. 
+            </i></h3>
+        
+        </div>
+      </div>
 
-      <br><br><br>
-      <a href="index.html" class="back grayed" style="  margin-top: 2vw;"> ← Back to portfolio </a>
-      <br><br><br>
-      <script src="script.js"></script>
+      <center>
+        <hr style="height:2px;border-width:0;color:rgb(51, 51, 51);background-color:rgb(51, 51, 51); width: 60vw;">
+      </center>
+
+
+      <div class="box-outline" style="border-style: none;">
+          <div style="margin: 5vw;">
+            <h3 class="box-header" style="color: #2A96FB"> MORE PROJECTS </h3>
+            <div style="display: flex; flex-direction: row; justify-content: space-between; margin-top: 0;">
+              <a href="rise.html">
+                <div class="thumb-div-small" style="background-image: url('css/home-images/rise-thumbnail.png');">
+                  <div class="proj-text">
+                    <h1 class="thumb-text-small" style="-webkit-text-stroke: .1vw #FBE62A;"> RISE x JUV </h1>
+                    <p class="thumb-text-small" style="color: white; font-size: 1vw; margin-top: 13.3vw;"> <b><i>Brand, Marketing </i></b></p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="trill.html">
+                <div class="thumb-div-small" style="background-image: url('css/home-images/trill-thumbnail.png');">
+                  <div class="proj-text">
+                    <h1 class="thumb-text-small" style="-webkit-text-stroke: .1vw #7B59DC;"> Trill Group Chats </h1>
+                    <p class="thumb-text-small" style="color: white; font-size: 1vw; margin-top: 13.3vw;"> <b><i> UX/UI, UX Research </i></b> </p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="helloo.html">
+                <div class="thumb-div-small" style="background-image: url('css/home-images/helloo-thumbnail.png');">
+                  <div class="proj-text">
+                    <h1 class="outline thumb-text-small" style="-webkit-text-stroke: .1vw #69E2BC;"> Helloo World Revamp </h1>
+                    <p class="thumb-text-small" style="color: white; font-size: 1vw; margin-top: 13.3vw;"> <b><i>Brand, UX/UI </i></b></p>
+                  </div>
+                </div>
+              </div>
+            </a>
+        </div>
+      </div>
+
+      <center>
+        <hr style="height:2px;border-width:0;color:rgb(51, 51, 51);background-color:rgb(51, 51, 51); width: 60vw;">
+      </center>
+  
+      <div style="margin-left: 20vw; margin-top: 3vw;">
+        <h1 style="font-size: 2.4vw;"> Like what you see?  <a class="outline" style="-webkit-text-stroke: .2vw #2A96FB;"> Let's connect</a>. </h1>
+      
+        <div style="margin-top: 1vw; margin-bottom: 3vw; display: flex; flex-direction: row; align-items: center;">
+          <a href="mailto:gabrielabanaag@gmail.com"> 
+            <img style="margin-right: 1vw; width: 3vw;" src="logos/gmail.svg">
+          </a>
+  
+          <a target="_blank" href="https://www.linkedin.com/in/gabriela-yb/"> 
+            <img style="margin-right: 1vw; width: 3vw;" src="logos/linkedin.svg">
+          </a>
+  
+          <a target="_blank" href="https://dribbble.com/gbanaag"> 
+            <img style="margin-right: 1vw; width: 3vw;" src="logos/dribbble.svg">
+          </a>
+        </div>
+      
+      </div>
 
   </body>
-</html>

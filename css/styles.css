@@ -396,11 +396,29 @@ button {
   margin-left: 0vw;
 }
 
+.thumb-div-small {
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100% 100%;
+  background-position: right, left;  
+  height: 16vw;
+  width: 18vw; 
+  margin: 1.5vw;
+  margin-left: 0vw;
+}
+
 .thumb-text {
   position: absolute;
   margin-top: 21.3vw;
   left: 2vw;
   font-size: 2.4vw;
+}
+
+.thumb-text-small {
+  position: absolute;
+  font-size: 1.3vw; 
+  color:#0C0C0D; 
+  margin-top: 11.8vw;
+  margin-left: 1vw;
 }
 
 .header-image {
@@ -460,8 +478,9 @@ h2 {
 
 .case-img {
   width: 15vw;
-  border-radius: 1vw;
+  /* border-radius: 1vw; */
   margin-right: 1vw;
+  margin-bottom: 1vw;
 }
 
 .annotation {
