@@ -55,10 +55,6 @@ h1 {
   filter: drop-shadow(8px 15px 64px rgba(0, 0, 0, 0.16));
 }
 
-img {
-  /* position: absolute; */
-}
-
 #gabby1 {
   width:20vw;
   margin-left: 55%;
@@ -280,8 +276,7 @@ button {
 
 .proj-img:hover {
   transform: rotate(-2deg) scale(1.15);
-  /* transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */ */
-} */
+  /* transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */ 
 
 .proj-info {
   display: flex;
