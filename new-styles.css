@@ -38,10 +38,31 @@
     display: flex;
     /* flex-direction: column; */
     margin: 2vw;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0C0C0D;
+  color: white;
+}
+
+/* @font-face {
+    font-family: 'fontersregular';
+    src: url('fonters-webfont.woff2') format('woff2'),
+         url('fonters-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+.logo {
+    width: 8vw;
     position: fixed;
-    font-family: 'Karla', sans-serif;
-    right: 3vw;
-    top: 2vw;
+    left: 3vw;
+    top: 3vw;
     z-index: 900;
   }
   
@@ -278,8 +299,7 @@
   }
   .proj-img:hover {
     transform: rotate(-2deg) scale(1.15);
-    /* transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */ */
-  } */
+    /* transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */ 
   
   .proj-info {
     display: flex;
