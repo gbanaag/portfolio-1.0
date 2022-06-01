@@ -5,6 +5,12 @@
 		},
 		{
 			"path": "."
+		},
+		{
+			"path": "../220/lab01-gbanaag"
+		},
+		{
+			"path": "../220/hw01-gbanaag"
 		}
 	],
 	"settings": {}
