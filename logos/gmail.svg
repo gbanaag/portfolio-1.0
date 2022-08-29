@@ -1,0 +1,17 @@
+<svg width="73" height="55" viewBox="0 0 73 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g style="mix-blend-mode:luminosity">
+<path d="M4.97727 54.7639H16.5909V26.5594L0 14.1162V49.7867C0 52.5408 2.23148 54.7639 4.97727 54.7639Z" fill="#7D7D7D"/>
+</g>
+<g style="mix-blend-mode:luminosity">
+<path d="M56.4091 54.7639H68.0227C70.7768 54.7639 73 52.5325 73 49.7867V14.1162L56.4091 26.5594" fill="#7C7C7C"/>
+</g>
+<g style="mix-blend-mode:luminosity">
+<path d="M56.4091 4.99139V26.5596L73 14.1164V7.48003C73 1.3248 65.9737 -2.18418 61.0545 1.5073" fill="#BBBBBB"/>
+</g>
+<g style="mix-blend-mode:luminosity">
+<path d="M16.5909 26.5594V4.99121L36.5 19.923L56.4091 4.99121V26.5594L36.5 41.4912" fill="#747474"/>
+</g>
+<g style="mix-blend-mode:luminosity">
+<path d="M0 7.48003V14.1164L16.5909 26.5596V4.99139L11.9455 1.5073C7.01796 -2.18418 0 1.3248 0 7.48003" fill="#535353"/>
+</g>
+</svg>
